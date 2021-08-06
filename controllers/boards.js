@@ -7,7 +7,7 @@ module.exports = {
     }, 
 
     getBoards: (req, res) => {
-        console.log("getBoards")
+        res.send({ message: "getBoards" })
     }, 
 
     getBoardsId: (req, res) => {
